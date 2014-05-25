@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+   
+    <title> example code </title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   
+    <!-- Add bootstrap --> 
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="./lib/jquery-1.10.1.min.js"></script>
+
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="./source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="./source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.fancybox').fancybox();});
+    </script>
+
+ </head>
+ <body>
+
+
+    <div class="container">
+        <div class="row">
+           
+            <a class="fancybox" href="demo/1_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="demo/1_b.jpg" class="col-md-4" alt="" /></a>
+
+            <a class="fancybox" href="demo/2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="demo/2_b.jpg" class="col-md-4" alt="" /></a>
+
+            <a class="fancybox" href="demo/3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="demo/3_b.jpg" class="col-md-4" alt="" /></a>
+   
+        </div>
+    </div>
+</body>
+</html>
